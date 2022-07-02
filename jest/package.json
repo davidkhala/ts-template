@@ -1,0 +1,11 @@
+{
+    "scripts": {
+        "compile": "tsc --project tsconfig.json",
+        "test": "jest"
+    },
+    "devDependencies": {
+        "typescript": "latest",
+        "jest": "latest",
+        "ts-jest": "latest"
+    }
+}
