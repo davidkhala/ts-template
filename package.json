@@ -9,6 +9,6 @@
         "eslint": "latest",
         "jest": "latest",
         "ts-jest": "latest",
-        "typescript": "^4.8.2"
+        "typescript": "latest"
     }
 }
