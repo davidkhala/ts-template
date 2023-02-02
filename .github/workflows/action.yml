@@ -1,6 +1,5 @@
 name: typeScript
 on: push
-
 jobs:
   test:
     runs-on: ubuntu-latest
@@ -8,4 +7,5 @@ jobs:
     - uses: actions/checkout@main
     - run: npm run compile
     - run: npm test
+
 
