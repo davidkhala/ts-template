@@ -10,7 +10,8 @@
   ],
   "parserOptions": {
     "project": [
-      "./tsconfig.json"
+      "./tsconfig.json",
+      "./test.tsconfig.json"
     ]
   },
   "root": true,
