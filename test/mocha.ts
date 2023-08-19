@@ -1,5 +1,5 @@
-import Index, {type} from '../src/index';
 import * as assert from 'assert';
+import Index, {type} from '../src';
 
 describe('', () => {
 	it('', () => {
