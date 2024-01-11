@@ -2,18 +2,22 @@
   "scripts": {
     "compile": "tsc --project tsconfig.json",
     "test": "jest",
+    "test:esm": "node --experimental-vm-modules node_modules/jest/bin/jest.js --config=jest.config.esm.json",
     "mocha-test": "ts-mocha test/*"
   },
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "devDependencies": {
     "@types/jest": "latest",
+    "@types/node": "latest",
     "@typescript-eslint/eslint-plugin": "latest",
     "@typescript-eslint/parser": "latest",
     "eslint": "latest",
     "jest": "latest",
+    "jest-ts-webcompat-resolver": "latest",
     "ts-jest": "latest",
     "ts-mocha": "latest",
     "typescript": "latest"
-  }
+  },
+  "type": "module"
 }

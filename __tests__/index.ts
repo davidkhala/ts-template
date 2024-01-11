@@ -1,10 +1,10 @@
-import Index, {type} from '../src/index';
-import * as assert from 'assert';
+import Index, { type } from '../src/index';
+
 
 describe('', () => {
 	it('', () => {
-		assert.strictEqual(new Index().constructor.name, 'Index');
-		assert.strictEqual(type, 'typescript');
+		expect(new Index().constructor.name).toBe('Index');
+		expect(type).toBe('typescript')
 	});
 
 });
